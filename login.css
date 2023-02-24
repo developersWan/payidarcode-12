@@ -1,0 +1,97 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* General */
+body{
+    background-color: #10151c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+/* Boyutlandırma */
+.boyutlandirma img {
+    max-width: 92px;
+    height: auto;
+    margin-left: 100px;
+}
+
+/* Section */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;    
+    background: url('https://i.hizliresim.com/71o501p.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Form Box */
+.bg-circle{
+    position: absolute;
+    left: 50%;
+    top: 50%; /* TOP APO */
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(24, 26, 43, 0.541);
+}
+.bg-form{
+    position: absolute;
+    left: 50%;
+    top: 50%; /* TOP APO */
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 300px;
+    text-align: center;
+    transition: 250ms all;
+}
+.bg-form input[type="text"]{
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    transition: 250ms all;
+    border-bottom: 1px solid #2629448a;
+}
+.bg-form input[type="submit"]{
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: 0px 0px 0px 2px #2629448a;
+    border: none;
+    cursor: pointer;
+    transition: 250ms all;
+    background-image: linear-gradient(90deg, #2629448a, 100%, #2629448a 100%);
+    background-size: 0%;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 10px;
+}
+.bg-form input[type="submit"]:hover{
+    transform: scale(1.05);
+    background-size: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);
+}
+
+/*  */
+h2{
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+}
